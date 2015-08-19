@@ -10,7 +10,7 @@
 
     <Grid x:Name="LayoutRoot">
         <Grid.Background>
-            <ImageBrush x:Name="LayoutRootBackground" ImageSource="" Stretch="Uniform" />
+            <ImageBrush x:Name="LayoutRootBackground" Stretch="Uniform" />
         </Grid.Background>
         <VisualStateManager.VisualStateGroups>
             <VisualStateGroup >
