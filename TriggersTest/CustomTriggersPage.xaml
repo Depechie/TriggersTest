@@ -19,6 +19,9 @@
                         <triggers:DeviceFamilyStateTrigger DeviceFamily="Desktop" />
                     </VisualState.StateTriggers>
                     <VisualState.Setters>
+                        <!-- Wrong code -->
+                        <!--<Setter Target="LayoutRoot.Background" Value="Assets/White-Wallpaper-Windows-10-HD.jpg" />-->
+                        <!-- Correct code -->
                         <Setter Target="LayoutRootBackground.ImageSource" Value="Assets/White-Wallpaper-Windows-10-HD.jpg" />
                     </VisualState.Setters>
                 </VisualState>
@@ -27,6 +30,9 @@
                         <triggers:DeviceFamilyStateTrigger DeviceFamily="Mobile" />
                     </VisualState.StateTriggers>
                     <VisualState.Setters>
+                        <!-- Wrong code -->
+                        <!--<Setter Target="LayoutRoot.Background" Value="Assets/Blue-Wallpaper_Windows_10_HD_2880x1800.jpg" />-->
+                        <!-- Correct code -->
                         <Setter Target="LayoutRootBackground.ImageSource" Value="Assets/Blue-Wallpaper_Windows_10_HD_2880x1800.jpg" />
                     </VisualState.Setters>
                 </VisualState>

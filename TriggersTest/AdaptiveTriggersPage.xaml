@@ -27,10 +27,9 @@
                     </VisualState.StateTriggers>
                     <VisualState.Setters>
                         <Setter Target="LayoutRootBackground.ImageSource" Value="Assets/Blue-Wallpaper_Windows_10_HD_2880x1800.jpg" />
-                    </VisualState.Setters>                    
+                    </VisualState.Setters>
                 </VisualState>
             </VisualStateGroup>
         </VisualStateManager.VisualStateGroups>
-
     </Grid>
 </Page>
