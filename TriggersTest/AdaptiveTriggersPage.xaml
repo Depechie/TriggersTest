@@ -18,7 +18,7 @@
                         <AdaptiveTrigger MinWindowWidth="320" />
                     </VisualState.StateTriggers>
                     <VisualState.Setters>
-                        <Setter Target="LayoutRootBackground.ImageSource" Value="Assets/White-Wallpaper-Windows-10-HD.jpg" />
+                        <Setter Target="LayoutRoot.(Grid.Background).(ImageBrush.ImageSource)" Value="Assets/White-Wallpaper-Windows-10-HD.jpg" />
                     </VisualState.Setters>
                 </VisualState>
                 <VisualState x:Name="Desktop">
@@ -26,7 +26,7 @@
                         <AdaptiveTrigger MinWindowWidth="720" />
                     </VisualState.StateTriggers>
                     <VisualState.Setters>
-                        <Setter Target="LayoutRootBackground.ImageSource" Value="Assets/Blue-Wallpaper_Windows_10_HD_2880x1800.jpg" />
+                        <Setter Target="LayoutRoot.(Grid.Background).(ImageBrush.ImageSource)" Value="Assets/Blue-Wallpaper_Windows_10_HD_2880x1800.jpg" />
                     </VisualState.Setters>
                 </VisualState>
             </VisualStateGroup>
